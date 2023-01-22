@@ -49,10 +49,10 @@ int main(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable) {
 To compile your EFI application you only have to enter the following: 
 
 ```bash
-  python build.py <Filename>
+  python build.py "Filename"
 ```
 
-Change <Filename> to what you want the finished EFI file to be called, for example hello.efi.
+Change "Filename" to what you want the finished EFI file to be called, for example hello.efi.
 That's all, you can now try your EFI file under a UEFI system.
 
 
