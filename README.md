@@ -36,11 +36,11 @@ Our example code to print out a 'Hello, World!' message:
 ```c
 #include <sedk.h>
 
-int main(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable) {
+EFI_STATUS efimain(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable) {
 
     Log(L"Hello, World!\n");
 
-    return 0;
+    return EFI_STATUS;
 }
 ```
 
