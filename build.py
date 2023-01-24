@@ -1,3 +1,12 @@
+#
+#   SEDK - Simple Extensible Firmware Interface Development Kit
+#    
+#   File: build.py
+#
+#   Last change: 24.01.2023
+#
+
+
 import json
 import sys
 import os
