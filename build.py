@@ -17,9 +17,9 @@ defaultldflags = "-subsystem:efi_application -nodefaultlib -dll -entry:efi_entry
 def isInstalled(name):
     try:
         subprocess.call([name, "--version"])
-        return 0
+        return True
     except FileNotFoundError:
-        return 404
+        return False
 
 def checkConfig():
     if(configFile.is_file()):
@@ -28,6 +28,8 @@ def checkConfig():
         return 0
 
 def createNewConfig():
+
+    os.system("cls")
 
     print("""
  ######  ######## ########  ##    ## 
@@ -93,6 +95,15 @@ if len(sys.argv) == 1:
 
 
 elif len(sys.argv) == 2:
+    if not isInstalled("clang"):
+        print("[LOG] Clang not found! Quiting...")
+        sys.exit()
+    if not isInstalled("lld-link"):
+        print("[LOG] Lld-link nout found! Quiting...")
+        sys.exit()
+    
+    os.system("cls")
+
     print("[LOG] Trying to build your EFI application...")
     print("[LOG] Filename: " + sys.argv[1])
     print("[LOG] Machine: " + platform.machine())
