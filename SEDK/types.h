@@ -20,7 +20,7 @@ typedef short               int16_t;
 typedef unsigned char       uint8_t;
 typedef signed char         int8_t;
 
-typedef uint8_t             Bolean;
+typedef uint8_t             Boolean;
 typedef uint16_t            Char16;
 typedef uint64_t            EFI_LBA;
 typedef uint64_t            EFI_PHYSICAL_ADDRESS;
