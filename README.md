@@ -15,7 +15,7 @@ To get started you need:
 - Clang([Download](https://clang.llvm.org/))
 - Python 3.9+([Download](https://www.python.org/downloads/))
 - Visual Studio Code(Just a recommendation)
-- Mutivation
+- Motivation
 
 After you have done all the things above we can now start to write a simple Hello World application. 👍
 
