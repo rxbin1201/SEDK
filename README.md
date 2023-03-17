@@ -63,6 +63,7 @@ Supported protocols:
 - Device Path Protocol
 - Simple Text Input Protocol
 - Simple Text Output Protocol
+- Graphics Output Protocol
 - More coming soon...
 
 
