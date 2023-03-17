@@ -39,7 +39,7 @@ Our example code to print out a 'Hello, World!' message:
 
 EFI_STATUS efi_entry(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable) {
 
-    Log(L"Hello, World!\n");
+    Print(L"Hello, World!\n");
 
     return EFI_STATUS;
 }
