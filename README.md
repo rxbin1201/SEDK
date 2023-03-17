@@ -60,9 +60,10 @@ That's all, you can now try your EFI file under a UEFI system.
 ## Protocols
 
 Supported protocols:
+- Device Path Protocol
 - Simple Text Input Protocol
 - Simple Text Output Protocol
-- Device Path Protocol
+- More coming soon...
 
 
 
