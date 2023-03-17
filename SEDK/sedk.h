@@ -2,7 +2,7 @@
 
     SEDK - Simple Extensible Firmware Interface Development Kit
     
-    File: Sedk.h
+    File: sedk.h
 
     Last change: 17.03.2023
 */
