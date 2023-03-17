@@ -32,7 +32,7 @@ Here you can write all your source code in it.
 
 
 
-Our example code to print out a 'Hello, World!' message:
+Our example code to print out a 'Hello, World with SEDK!' message:
 
 ```c
 #include <sedk.h>
@@ -40,8 +40,8 @@ Our example code to print out a 'Hello, World!' message:
 EFI_STATUS efi_entry(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable) {
 
     SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"Hello, World with SEDK!\n");
-
-    return EFI_STATUS;
+   
+    return EFI_SUCCESS;
 }
 ```
 
