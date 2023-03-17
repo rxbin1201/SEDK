@@ -57,7 +57,12 @@ Change 'Filename' to what you want the finished EFI file to be called, for examp
 That's all, you can now try your EFI file under a UEFI system.
 
 
+## Protocols
 
+Supported protocols:
+- Simple Text Input Protocol
+- Simple Text Output Protocol
+- Device Path Protocol
 
 
 
