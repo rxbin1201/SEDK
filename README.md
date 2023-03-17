@@ -39,7 +39,7 @@ Our example code to print out a 'Hello, World!' message:
 
 EFI_STATUS efi_entry(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable) {
 
-    Print(L"Hello, World!\n");
+    SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"Hello, World with SEDK!\n");
 
     return EFI_STATUS;
 }
