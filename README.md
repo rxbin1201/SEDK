@@ -26,7 +26,7 @@ After downloading the latest release, you need to unzip the file. Now open a new
 ```bash
   python build.py
 ```
-When you are asked how to name certain directories it is important to write only the name of the folder without '/' otherwise it can lead to problems in the build script
+When you are asked how to name certain directories it is important to write only the name of the folder without '/' otherwise it can lead to problems in the build script.
 The first time you will be asked some important things, after that some new files should have created. Now open any text editor of your choice (I prefer Visual Studio Code). If not already created you can now create a new C-file in the Sources folder, for example main.c.
 Here you can write all your source code in it.
 
